@@ -1,0 +1,27 @@
+---
+fi:
+  activerecord:
+    attributes:
+      spree/page:
+        body: Sisältö
+        foreign_link: "Linkki muualle (URL)"
+        layout: Ulkoasu
+        meta_description: "Meta-kuvaus"
+        meta_keywords: "Meta-avainsanat"
+        meta_title: "Meta-otsikko"
+        position: Sijainti
+        render_layout_as_partial: "Renderöi osittaisena näkymänä"
+        show_in_footer: "Näytä alaviitteessä"
+        show_in_header: "Näytä otsikossa"
+        show_in_sidebar: "Näytä sivupalkissa"
+        slug: Lyhytlinkki
+        title: Otsikko
+        visible: Näkyvissä
+    models:
+      spree/page:
+        one: Sivu
+        other: Sivut
+  spree:
+    static_content:
+      link: Linkki
+      new_page: Uusi sivu
